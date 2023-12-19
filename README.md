@@ -7,7 +7,7 @@ This portfolio can also be viewed by visiting [https://).
 <img align="left" src="https://user-images.githubusercontent.com/32546509/77238966-de37cd00-6bab-11ea-9b9b-e49783f8300a.jpg">
 My name is Kristoff Lawrence and I’m a recent graduate of The University of Technology, Jamaica's Urban and Regional Planning Bachelor's program (B.Sc. URP). Before enrolling at UTech, I worked for a few months at the Island Traffic Authority's May Pen Depot, where I was an office assistant.<br />
 <br />
-I first became interested in Geographic Information Systems during my latter years at UTech since it was part of my courses. I had no prior knowledge of it but was interested in how I could manipulate these software to solve or highlight problems. need that exists within the public sector both for more high-quality data as well as for the knowledge and skills to put that data to effective use.<br />
+I first became interested in Geographic Information Systems during my latter years at UTech since it was part of my courses. I had no prior knowledge of it but was interested in how I could manipulate this software to solve or highlight problems.<br />
 <br />
 This realization is what ultimately led me to Carnegie Mellon, and to Heinz College in particular. As the country’s top-rated program in analytics education with a mission of training students to “turn raw data into solutions for society’s most pressing problems,” the MSPPM program at Carnegie Mellon offered the perfect opportunity to develop the technical competencies I was seeking as well as an ideal environment to practice those skills in a real-world setting—namely, the City of Pittsburgh and its diverse network of organizational partners.<br />
 <br />
