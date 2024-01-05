@@ -19,7 +19,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
 - [Creating a Landuse Map ](#creating-a-landuse-map ) 
 - [Interpolating Point Data](#interpolating-point-data)
-- [Mapping Damage from Hurricane Katrina](#mapping-damage-from-hurricane-katrina) 
+- [Locating Nearest Facility with Origin-Destination Matrix](#locating-nearest-facility-with-origin--destination-matrix) 
 - [Visualizing 412 Food Rescue Data with Kepler](#visualizing-412-food-rescue-data-with-kepler) 
 - [Investigating Patterns in my Google Location Data](#investigating-patterns-in-my-google-location-data) 
 - [Final Project: Hazus Flood Modeling for Miami, FL](#final-project-hazus-flood-modeling-for-miami-fl)
@@ -138,7 +138,7 @@ Below is a proposed text message that the North Carolina DMV can send out that i
 
 [Return to top](#jump-to-section)
 
-## Mapping Damage from Hurricane Katrina
+## Locating Nearest Facility with Origin-Destination Matrix
 
 **I.	Map of Mississippi elevation/bathymetry**
 <br />
