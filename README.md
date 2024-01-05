@@ -17,7 +17,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 
 #### Jump to Section
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
-- [ArcGIS Map Style](#arcgis-map-style-plant-growing-in-the-desert) 
+- [Creating a Landuse Map ](#creating-a-landuse-map ) 
 - [Mecklenburg Hazard Evacuation Exercise](#mecklenburg-hazard-evacuation-exercise)
 - [Mapping Damage from Hurricane Katrina](#mapping-damage-from-hurricane-katrina) 
 - [Visualizing 412 Food Rescue Data with Kepler](#visualizing-412-food-rescue-data-with-kepler) 
