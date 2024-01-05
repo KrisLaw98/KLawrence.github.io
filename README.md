@@ -16,7 +16,7 @@ My most recent projects have focused on public interest technologies that help t
 View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/Patrick%20Campbell%20Resume.pdf).
 
 #### Jump to Section
-- [Basic Network Visualization and Routing](#google-maps-styles) 
+- [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
 - [ArcGIS Map Style](#arcgis-map-style-plant-growing-in-the-desert) 
 - [Mecklenburg Hazard Evacuation Exercise](#mecklenburg-hazard-evacuation-exercise)
 - [Mapping Damage from Hurricane Katrina](#mapping-damage-from-hurricane-katrina) 
@@ -31,7 +31,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [Bumblebee Conservation in the Midwest US](#bumblebee-conservation-in-the-midwest-us)
 - [Resilience Oriented Planning Map](#resilience-oriented-planning-map)
 
-## Google Maps Styles
+## Basic Network Visualization and Routing
 
 ### People's Square
 In this exercise, I used the [Google Maps Platform Styling Wizard](https://mapstyle.withgoogle.com/) to create my own Google Maps basemap, which I've named People's Square. To create the style, I first searched Google for an image (filtered by "marked for resuse" license) whose color scheme matched that of the map style I wanted to create. 
