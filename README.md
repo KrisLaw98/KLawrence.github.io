@@ -86,7 +86,7 @@ Click [here](https://jaxgoodlabs.github.io/GIS_portfolio/remote-sensing.html) to
 
 [Return to top](#jump-to-section)
 
-## ArcGIS Map Style: Plant Growing in the Desert
+## Creating a Landuse Map 
 <img align="left" width="17%" height="17%" src="https://user-images.githubusercontent.com/32546509/77484326-9d84c180-6e00-11ea-8bb3-d4757ef2b7d8.JPG">
 For this exercise, I wanted to make another attempt at executing my concept from last week - which, again, was to use a contrasting color scheme to highlight the specific elements of a municipality's physical infrastructure (buildings, highways, etc.) used by commons, cooperatives, and other cooperative enterprises. Similar to the previous exercise, I searched for images following a "life and death" theme, where life was represented by living greenery (trees, plants, etc.) and death was represented by burned or desiccated soil or dull, gray concrete. I ended up using  this image of a plant sprouting in the desert (left).<br />
 <br />
