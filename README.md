@@ -16,7 +16,7 @@ My most recent projects have focused on public interest technologies that help t
 View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/Patrick%20Campbell%20Resume.pdf).
 
 #### Jump to Section
-- [Google Map Styles](#google-maps-styles) 
+- [Basic Network Visualization and Routing](#google-maps-styles) 
 - [ArcGIS Map Style](#arcgis-map-style-plant-growing-in-the-desert) 
 - [Mecklenburg Hazard Evacuation Exercise](#mecklenburg-hazard-evacuation-exercise)
 - [Mapping Damage from Hurricane Katrina](#mapping-damage-from-hurricane-katrina) 
