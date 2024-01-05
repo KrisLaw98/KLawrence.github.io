@@ -20,7 +20,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [Creating a Landuse Map ](#creating-a-landuse-map ) 
 - [Interpolating Point Data](#interpolating-point-data)
 - [Locating Nearest Facility with Origin-Destination Matrix](#locating-nearest-facility-with-origin--destination-matrix) 
-- [Visualizing 412 Food Rescue Data with Kepler](#visualizing-412-food-rescue-data-with-kepler) 
+- [Creating a Map From an Online Mass Shooting Database](#creating-a-map-from-an-online-mass-shooting-database) 
 - [Investigating Patterns in my Google Location Data](#investigating-patterns-in-my-google-location-data) 
 - [Final Project: Hazus Flood Modeling for Miami, FL](#final-project-hazus-flood-modeling-for-miami-fl)
 - [Sustainable Campus Project](#sustainable-campus-project) 
@@ -176,7 +176,7 @@ The map below shows the infrastructure and health facilities at risk from the Hu
 
 [Return to top](#jump-to-section)
 
-## Visualizing 412 Food Rescue Data with Kepler
+## Creating a Map From an Online Mass Shooting Database
 Below is a screenshot of the 412 Food Rescue data I visualized in Kepler. Like many others, I felt the 3-d view would be most effective for displaying the arcs connecting donor and recipient. I chose a purple-yellow color scheme for maximum contrast and visibility on the dark-themed basemap. To reinforce the altruistic nature of the work, I chose the brightest color (yellow) to represent the recipients, implicitly making the map about them rather than the donors, who are visualized in purple. I thought the gradation effect was nice for providing the context of directionality. 
 
 <p align="center">
