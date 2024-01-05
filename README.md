@@ -18,7 +18,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 #### Jump to Section
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
 - [Creating a Landuse Map ](#creating-a-landuse-map ) 
-- [Mecklenburg Hazard Evacuation Exercise](#mecklenburg-hazard-evacuation-exercise)
+- [Interpolating Point Data](#interpolating-point-data)
 - [Mapping Damage from Hurricane Katrina](#mapping-damage-from-hurricane-katrina) 
 - [Visualizing 412 Food Rescue Data with Kepler](#visualizing-412-food-rescue-data-with-kepler) 
 - [Investigating Patterns in my Google Location Data](#investigating-patterns-in-my-google-location-data) 
@@ -108,7 +108,7 @@ One unanswered question, which may affect my comments above, has to do with whic
 
 [Return to top](#jump-to-section)
 
-## Mecklenburg Hazard Evacuation Exercise
+## Interpolating Point Data
 
 **I. Map with Incident and Evacuation Plans**
 
