@@ -21,7 +21,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [Interpolating Point Data](#interpolating-point-data)
 - [Locating Nearest Facility with Origin-Destination Matrix](#locating-nearest-facility-with-origin--destination-matrix) 
 - [Creating a Map From an Online Mass Shooting Database](#creating-a-map-from-an-online-mass-shooting-database) 
-- [Investigating Patterns in my Google Location Data](#investigating-patterns-in-my-google-location-data) 
+- [World Earthquakes](#world-earthquakes) 
 - [Final Project: Hazus Flood Modeling for Miami, FL](#final-project-hazus-flood-modeling-for-miami-fl)
 - [Sustainable Campus Project](#sustainable-campus-project) 
 - [Sustainable City Project](#sustainable-city-project) 
@@ -187,7 +187,7 @@ Click [here](https://jaxgoodlabs.github.io/GIS_portfolio/kepler412data.json) to 
 
 [Return to top](#jump-to-section)
 
-## Investigating Patterns in my Google Location Data
+## World Earthquakes
 
 While exploring my location data in ArcGIS data - which curiously included data just from 2015, 2019 and 2020 - the first thing that struck me was how spotty the coverage was. I had thoroughly expected to see a complete saturation of points throughout my travel range, but for many trips, found only single points representing a final destination. These were long, drawn out car trips, some of them covering multiple days of travel, and yet Google seems to have only collected a single data point from the whole trip.
 
