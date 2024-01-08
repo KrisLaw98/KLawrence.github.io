@@ -22,7 +22,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [Locating Nearest Facility with Origin-Destination Matrix](#locating-nearest-facility-with-origin--destination-matrix) 
 - [Creating a Map From an Online Mass Shooting Database](#creating-a-map-from-an-online-mass-shooting-database) 
 - [World Earthquakes](#world-earthquakes) 
-- [](#)
+- [Service Area Analysis using Openrouteservice](#service-area-analysis-using-openrouteservice)
 - [Sustainable Campus Project](#sustainable-campus-project) 
 - [Sustainable City Project](#sustainable-city-project) 
 - [Norwalk Transportation Project](#norwalk-transportation-project)
