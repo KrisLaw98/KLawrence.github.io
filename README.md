@@ -34,7 +34,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 ## Basic Network Visualization and Routing
 
 ### Washington D.C Roadway Block
-In this exercise, I used data from [Open Data DC](https://opendata.dc.gov/datasets/DCGIS::roadway-block/about) to create a visual representation of the road network, style one-way streets with arrows, and perform a shortest path analysis using QGIS. 
+In this exercise, I used data from [Open Data DC](https://opendata.dc.gov/datasets/DCGIS::roadway-block/about) to create a visual representation of the road network, style one-way streets with arrows, and perform a shortest path analysis between two random points using QGIS. 
 
 -First, I downloaded the Roadway_Block shapefile unzipped and loaded it into QGIS.
 
