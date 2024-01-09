@@ -34,7 +34,9 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 ## Basic Network Visualization and Routing
 
 ### Washington D.C Roadway Block
-In this exercise, I used data from [Open Data DC](https://opendata.dc.gov/datasets/DCGIS::roadway-block/about) to create a visual representation of the road network, style one-way streets with arrows, and perform a shortest path analysis using QGIS. To create the style, I first searched Google for an image (filtered by "marked for resuse" license) whose color scheme matched that of the map style I wanted to create. 
+In this exercise, I used data from [Open Data DC](https://opendata.dc.gov/datasets/DCGIS::roadway-block/about) to create a visual representation of the road network, style one-way streets with arrows, and perform a shortest path analysis using QGIS. 
+
+-First, I downloaded the Roadway_Block shapefile unzipped and loaded it into QGIS.
 
 I ultimately settled on the following image of People's Square in Shanghai (photo by [f11photo](https://stock.adobe.com/contributor/201898682/f11photo?load_type=author&prev_url=detail) via [Adobe Stock](https://stock.adobe.com/), standard license):
 
