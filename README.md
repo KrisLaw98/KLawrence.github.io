@@ -45,45 +45,10 @@ I then styled the one-way streets with arrows in the layer Styling Panel:
    - Choose filled_arrowhead marker for one-way streets.
    - Implement a data-defined override for Rotation to align arrows correctly based on the one-way direction -> if( "SUMMARYDIR" = 'IB', 180, 0).
 
-An image of the final product is displayed below. To access an interactive version of the map style, just click [here](https://jaxgoodlabs.github.io/GIS_portfolio/peoples-square.html).
+An image of the final product is displayed below.
 
 
 ![Layout 1](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/af8a6ac4-597b-42d3-9703-1030ddf1dfcc)
-
-
-<p align="center">
-<img width="800" height="450" src="https://user-images.githubusercontent.com/32546509/77235533-cc92fd00-6b8c-11ea-89fa-86e10101dde3.JPG">
-</p>
-
-### Night Glacier 2
-The Night Glacier 2 style was inspired by this image of ice climbers exploring a glacier at night, which I again used Canva to convert into a custom color palette.
-
-<p align="center">
-<img width="810" height="275" src="https://user-images.githubusercontent.com/32546509/77257394-5654d000-6c4a-11ea-92b0-7d8fbb566671.JPG">
-</p>
-
-The resulting map style is presented below.
-
-<p align="center">
-<img width="800" height="535" src="https://user-images.githubusercontent.com/32546509/77254553-171d8380-6c38-11ea-8b6e-5a2ab281bcba.JPG">
-</p>
-
-Click [here](https://jaxgoodlabs.github.io/GIS_portfolio/night-glacier-2.html) to access the interactive version.
-
-### Remote Sensing
-The Remote Sensing map style attempts to mimic the typical color scheme of an image generated using remote sensing technology. The image that served as my inspiration for this style is presented below along with the color palette generated from it.
-
-<p align="center">
-<img width="810" height="275" src="https://user-images.githubusercontent.com/32546509/77257412-7dab9d00-6c4a-11ea-9836-2edfaa506d90.JPG">
-</p>
-
-The resulting map style is presented below.
-
-<p align="center">
-<img width="800" height="535" src="https://user-images.githubusercontent.com/32546509/77254556-1a187400-6c38-11ea-812d-5e909c2047fd.JPG">
-</p>
-
-Click [here](https://jaxgoodlabs.github.io/GIS_portfolio/remote-sensing.html) to access the interactive version.
 
 [Return to top](#jump-to-section)
 
