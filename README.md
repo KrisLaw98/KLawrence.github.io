@@ -55,7 +55,7 @@ An image of the final product is displayed below.
 ## Creating a Landuse Map 
 
 ### Cape Town Land Use
-In this exercise, I used data from [Cape Town Open Data Portal](https://opendata.dc.gov/datasets/DCGIS::roadway-block/about) using the [ArcGIS REST Services](https://citymaps.capetown.gov.za/agsext1/rest/services) to import the data from it to create a land use map for the CBD region of Cape Town
+In this exercise, I used data from [Cape Town Open Data Portal](https://opendata.dc.gov/datasets/DCGIS::roadway-block/about) using the [ArcGIS REST Services](https://citymaps.capetown.gov.za/agsext1/rest/services) to import the data from it to create a land use map for the CBD region of Cape Town.
 
 -First I access the data from the Cape Town Open Data Portal using the ArcGIS REST server URL to create a server connection, downloading three layers: Cape Town CBD layer, Zoning layer, and Split Zoning layer.
 
@@ -67,7 +67,7 @@ I had to fix geometries for all the layers using the Fix Geometries algorithm in
 
 Lastly, I styled the Zoning layer with Categorized based on zoning codes Value, merging each sub-category for better visualization.
    - Adjust symbology, colors, and labels for each zoning category.
-   - Copy and paste the styling from the Zoning layer to the Split Zoning layer
+   - Copy and paste the styling from the Zoning layer to the Split Zoning layer.
 
 An image of the final product is displayed below.
 
@@ -78,69 +78,46 @@ An image of the final product is displayed below.
 
 ## Interpolating Point Data
 
-**I. Map with Incident and Evacuation Plans**
+### Lake Arlington
 
-*Mecklenburg, NC Hazardous Incident Report*
-<br />
-> At 6:32 this evening, a tanker truck carrying chlorine gas was heading westbound on Interstate 85 in Mecklenburg County when the driver lost control of the vehicle. The tanker was damaged in the process and chlorine gas is leaking slowly from the damaged tank into the surrounding area. The incident occurred between the two northbound and southbound lanes of Interstate 77 creating unsafe conditions for anyone located within a two-mile radius of the incident. 
-> 
-> Emergency responders are on the scene and have issued an immediate evacuation notice for all households located within the affected area (see the evacuation area on the map below). 
-> 
-> Initial reports estimate 15,626 households located within the affected area, representing a population of approximately 47,697 individuals. Temporary shelters have been set up in the half-mile area outside the perimeter of the evacuation zone (light red ring) and are marked on the map with mustard-yellow icons. All evacuees are instructed to seek shelter immediately at the nearest shelter location until the situation has been brought under control. While current weather conditions look favorable to preventing the expansion of the hazard area, the situation is being closely monitored for any changes. 
-For real time updates on the status of the situation, stay tuned to your local public radio station. A special hotline has also been set up to answer questions and provide any additional guidance that may be required as the situation is being resolved. To speak to an attendant, dial 555-5555. 
+In this exercise, I used data from the [Texas Water Development Board (TWDB)](https://www.twdb.texas.gov/surfacewater/surveys/completed/list/index.asp) to create an interpolated elevation surface of Lake Arlington, clip it to the lake boundary, generate contours, and add labels for elevation values. 
 
-<p align="center">
-<img width="80%" height="80%" src="https://user-images.githubusercontent.com/32546509/79400523-70858380-7f54-11ea-9269-3f55cd1bd80b.JPG">
-</p>
+-First I obtain the shapefiles for Lake Arlington's 2007-12 survey from the TWDB website. 
 
+Perform TIN Interpolation:
+   - Open the Processing Toolbox and find the TIN Interpolation tool.
+   - Set Arlington_Soundings_2007_stpl83 as the Vector layer with Elevation as the Interpolation attribute.
+   - Add Islands_2004_550_stpl83 as a break line with Elevation as the Interpolation attribute.
+   - Set the extent using Boundary2004_550_stpl83.
+   - Set pixel sizes to 5 in both X and Y dimensions.
+   - Save the output as elevation_tin.tif and run the interpolation.
 
-**II.	Map of Redirected Traffic Patterns and Drive Times to Nearest Hospitals**
-<br />
-Below is a proposed text message that the North Carolina DMV can send out that instructs motorists how to deal with the incident. Below that, I have included a map of evacuation routes and the service areas of the nearest fire stations. 
+Clip Raster by Mask Layer:
+   - Use the GDAL Clip raster by mask layer tool.
+   - Set elevation_tin as the Input layer and Boundary2004_550_stpl83 as the Mask layer.
+   - Save the output as elevation_tin_clipped.tif and run the tool.
 
-> An immediate evacuation notice has been issued for all motorists located within two miles of the I-77/I-85 interchange in Mecklenburg County due to the release of toxic chlorine gas in the area. Emergency responders are working to contain the incident and will provide regular updates through your local public radio station. Please call 555-5555 to be notified of the location of the nearest shelter and evacuation routes. If you think you may have been exposed to the hazard, an attendant can provide the location of the nearest hospital and offer guidance on seeking evaluation and treatment.
+Stylize Interpolated Raster:
+   - Open the Layer styling panel for elevation_tin_clipped.
+   - Set Symbology to Singleband pseudocolor, invert color ramp, and classify the values.
+     
+Generate Contours:
+   - Use the GDAL Contour tool.
+   - Set elevation_tin_clipped as the Input layer and specify a 5.000-foot interval for contour lines.
+   - Save the output as contour.gpkg and run the tool.
+     
+Stylize Contour Layer:
+    - Open the Layer styling panel for the contour layer.
+    - Set symbology as needed.
 
-<p align="center">
-<img width="80%" height="80%" src="https://user-images.githubusercontent.com/32546509/79400529-73807400-7f54-11ea-9f26-184d0c30e1c0.JPG">
-</p>
+Add Labels to Contours:
+    - Switch to the Labels tab in the Layer styling panel.
+    - Choose Single label, set the Value to ELEV, and adjust the placement as Curved.
 
-[Return to top](#jump-to-section)
+An image of the final product is displayed below.
 
-## Locating Nearest Facility with Origin-Destination Matrix
+![Layout 1](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/31d6a49f-f129-4d36-b153-c820f279e412)
 
-**I.	Map of Mississippi elevation/bathymetry**
-<br />
-The map below shows the elevation/bathymetry of coastal Mississippi counties with places, types of water, barrier islands, and rivers. A second map is also provided showing a time series of the path of Hurricane Katrina in relation to these features. The time slider has been stopped at the moment the hurricane’s path had just crossed the Mississippi coastline, around 4 pm on Aug. 28, 2005 (see light yellow line at west of map). As you can, the hurricane landed at the southwest corner of Hancock county with a pressure of less than 923 millibars.
-
-<p align="center">
-<img width="80%" height="80%" src="https://user-images.githubusercontent.com/32546509/79077075-8da82100-7ccc-11ea-9a09-8f89cded7056.JPG">
-</p>
-<p align="center">
-<img width="80%" height="80%" src="https://user-images.githubusercontent.com/32546509/79076843-0f974a80-7ccb-11ea-89f4-e0de69b6c6dc.png">
-</p>
-
-**II.	Map of flooded Mississippi coast after Hurricane Katrina**
-<br />
-The map below shows the extent of flooding in the wake of Hurricane Katrina across three coastal counties in Mississippi. Flooding is shown broken down by the type of land-cover it affected, with the unaffected areas displayed with no color.
-<br />
-<p align="center">
-<img width="80%" height="80%" src="https://user-images.githubusercontent.com/32546509/79076926-803e6700-7ccb-11ea-98f6-d3aaf2064c38.jpg">
-</p>
-
-A total of 1,293,503 acres of land was flooded in the wake of Hurricane Katrina between the three coastal counties. A breakdown of these flooded areas by type of land cover is provided in the table below.<br />
-
-*Table 1. Breakdown of flooded areas by type of land cover*
-<p align="left">
-<img width="47%" height="47%" src="https://user-images.githubusercontent.com/32546509/79076909-5dac4e00-7ccb-11ea-856c-6f81bf7dd810.JPG">
-</p>
-
-**III.	Map of infrastructure at risk from storm surge**
-<br />
-The map below shows the infrastructure and health facilities at risk from the Hurricane Katrina storm surge, which rose to 15 feet above normal sea level. Vast areas were affected with the largest impacts being concentrated around existing wetlands and river systems. The barrier islands to the south were completely inundated by the storm surge, although these areas fortunately appear to have been absent of major infrastructure or facilities.
-
-<p align="center">
-<img width="80%" height="80%" src="https://user-images.githubusercontent.com/32546509/79076928-85031b00-7ccb-11ea-9089-6fe22ab7056a.JPG">
-</p>
 
 [Return to top](#jump-to-section)
 
