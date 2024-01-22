@@ -140,6 +140,8 @@ The second input layer is the mass shooting community data with the Table Field 
 
 -In the new joined layer I changed the symbology to Graduated with "N Gun Stores in Zip Code" as the Value. The Mode is "Fixed Interval" with interval size set to 1 and with Classes set to 4.
 
+- Turn on Labels for the regular mass shooting data layer and set it to Single Labels with the Value as Number Killed to display this specific data (in green) at the areas where the shootings occured.
+
 Display
 
 -The heatmap I used for the symbology does not display in the legend for the print layout. I researched a way to do this and learned about the Heatmap (Kernel Density Estimation) tool. I used the mass shooting database layer as the point layer, left everything to default, and then ran it.
