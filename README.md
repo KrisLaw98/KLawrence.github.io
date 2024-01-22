@@ -38,19 +38,14 @@ In this exercise, I used data from [Open Data DC](https://opendata.dc.gov/datase
 
 -First, I downloaded the Roadway_Block shapefile unzipped and loaded it into QGIS.
 
-I ultimately settled on the following image of People's Square in Shanghai (photo by [f11photo](https://stock.adobe.com/contributor/201898682/f11photo?load_type=author&prev_url=detail) via [Adobe Stock](https://stock.adobe.com/), standard license):
+I then styled the one-way streets with arrows in the layer Styling Panel:
+   - Choose Rule-based renderer.
+   - Add a new rule for one-way streets using the "SUMMARYDIR" attribute using -> "SUMMARYDIR" in ('IB',  'OB').
+   - Set the symbol layer type to Marker line.
+   - Choose filled_arrowhead marker for one-way streets.
+   - Implement a data-defined override for Rotation to align arrows correctly based on the one-way direction -> if( "SUMMARYDIR" = 'IB', 180, 0).
 
-<p align="center">
-<img width="600" height="400" src="https://user-images.githubusercontent.com/32546509/77230702-6302f680-6b6c-11ea-93ce-bf99898ecf31.jpg">
-</p>
-
-I then used [Canva's color palette generator](https://www.canva.com/colors/color-palette-generator/) to create a custom color palette based on the image I had chosen. 
-
-<p align="center">
-<img width="500" height="155" src="https://user-images.githubusercontent.com/32546509/77231010-92b2fe00-6b6e-11ea-9bac-d2ba32425c89.jpg">
-</p>
-
-Back in the Google Maps Styling Wizard, I selected the "Dark" theme to serve as my base template and then proceeded to change the colors of various features using the hex codes from my custom color palette. A screenshot of the final product is displayed below. To access an interactive version of the map style, just click [here](https://jaxgoodlabs.github.io/GIS_portfolio/peoples-square.html).
+An image of the final product is displayed below. To access an interactive version of the map style, just click [here](https://jaxgoodlabs.github.io/GIS_portfolio/peoples-square.html).
 
 <p align="center">
 <img width="800" height="450" src="https://user-images.githubusercontent.com/32546509/77235533-cc92fd00-6b8c-11ea-89fa-86e10101dde3.JPG">
