@@ -57,14 +57,14 @@ An image of the final product is displayed below.
 ### Cape Town Land Use
 In this exercise, I used data from [Cape Town Open Data Portal](https://opendata.dc.gov/datasets/DCGIS::roadway-block/about) using the [ArcGIS REST Services](https://citymaps.capetown.gov.za/agsext1/rest/services) to import the data from it to create a land use map for the CBD region of Cape Town
 
--First, I downloaded the Roadway_Block shapefile unzipped and loaded it into QGIS.
+-First I access the data from the Cape Town Open Data Portal using the ArcGIS REST server URL to create a server connection, downloading three layers: Cape Town CBD layer, Zoning layer, and Split Zoning layer.
 
-I then styled the one-way streets with arrows in the layer Styling Panel:
-   - Choose Rule-based renderer.
-   - Add a new rule for one-way streets using the "SUMMARYDIR" attribute using -> "SUMMARYDIR" in ('IB',  'OB').
-   - Set the symbol layer type to Marker line.
-   - Choose filled_arrowhead marker for one-way streets.
-   - Implement a data-defined override for Rotation to align arrows correctly based on the one-way direction -> if( "SUMMARYDIR" = 'IB', 180, 0).
+I then save all three layers locally as shapefiles (CBD, Zoning, and Split Zoning).
+
+Open the Processing Toolbox to find and use the Intersection algorithm operation between the Zoning and CBD layers, and Split Zoning and CBD layers.
+- Fix geometries for Zoning and Split Zoning layers to address any invalid geometries.
+- Save the fixed geometry layers as zoning_fixed.shp and split_zoning_fixed.shp.
+
 
 An image of the final product is displayed below.
 
