@@ -122,13 +122,31 @@ An image of the final product is displayed below.
 [Return to top](#jump-to-section)
 
 ## Creating a Map From an Online Mass Shooting Database
-Below is a screenshot of the 412 Food Rescue data I visualized in Kepler. Like many others, I felt the 3-d view would be most effective for displaying the arcs connecting donor and recipient. I chose a purple-yellow color scheme for maximum contrast and visibility on the dark-themed basemap. To reinforce the altruistic nature of the work, I chose the brightest color (yellow) to represent the recipients, implicitly making the map about them rather than the donors, who are visualized in purple. I thought the gradation effect was nice for providing the context of directionality. 
 
-<p align="center">
-<img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/79072640-1ebccf00-7cb0-11ea-8d3c-50a9fee402d5.JPG">
-</p>
 
-Click [here](https://jaxgoodlabs.github.io/GIS_portfolio/kepler412data.json) to access the json file for this map.
+
+In this exercise, I used data from the [The Violence Project Mass Shooter Database](https://www.theviolenceproject.org/mass-shooter-database/) and [Homeland Infrastructure Foundation-Level Data (HIFLD) Open Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::local-law-enforcement-locations/explore?filters=eyJUWVBFIjpbIkxPQ0FMIFBPTElDRSBERVBBUlRNRU5UIl19&location=26.839486%2C-96.938262%2C3.00) to create an interpolated elevation surface of Lake Arlington, clip it to the lake boundary, generate contours, and add labels for elevation values. 
+
+
+1.	Download the excel spreadsheet with MS data in it. Convert to csv and then import to QGIS as Delimited Text Layer. Change symbology to heatmap and weigh points by number killed, change blending mode to multiply and change radius to 8 mm. Change the Label to Single Label and Value to Number Killed and render it to a scale of 1:4725400  so it permanently shows at that scale.
+2.	Download Local police department Locations from Homeland Infrastructure Foundation-Level Data(HIFLD) OPEN DATA (using the filter ). 
+Local Law Enforcement Locations (feature class/shapefile)
+Summary
+This feature class/ shapefile contains law enforcement agencies as defined by the US Department of Justice - Bureau of Justice Statistics for the Homeland Infrastructure Foundation-Level Data (HIFLD) database. https://hifld-geoplatform.opendata.arcgis.com
+Same instructions as 1. above but with a point coordinate geometry definition and change symbol blending mode to multiply and size to .4 mm.
+3.	Download the excel spreadsheet with MS Community data in it. Convert to csv and then import to QGIS as Delimited Text Layer. Filter for 1 or more gun stores in zip code - "N Gun Stores in Zip Code" >= 1.
+
+4.	Execute the Join attributes by field value process. The first input is the MS data with table field as total firearms brought to the scene, second input is MS Community data with table field data as N of gun stores in zip code. Select discard records which can’t be joined.
+
+5.	In the new joined layer change the symbology to Graduated with N Gun Stores in Zip Code as the Value. The mode is Fixed Interval with size 1 and with Classes set to 4.
+
+Display
+
+The heatmap I used for the symbology in Step #1 does not display in the legend for the print layout. I researched a way to do this and I found out about the Heatmap (Kernel Density Estimation) tool. I used the MS Database layer as the point layer and left everything to default and then I ran it. A new heatmap raster was created and then I edited the symbology – I set the render type to singleband pseudocolor with the Min and Max set to the lowest no. of people killed and most no. of people killed respectively. I set the mode to equal interval and put a minimum of 19 classes to create a makeshift heatmap for the legend in theprint layout.
+
+
+
+Images of the final product are displayed below.
 
 [Return to top](#jump-to-section)
 
