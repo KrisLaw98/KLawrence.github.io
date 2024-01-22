@@ -135,9 +135,10 @@ In this exercise, I used data from the [The Violence Project Mass Shooter Databa
 
 -I also downloaded the Excel spreadsheet with mass shooting community-level data that contains demographic information. Convert to .csv format and then import to QGIS as Delimited Text Layer. Filter this new layer for 1 or more gun stores in zip code -> "N Gun Stores in Zip Code" >= 1.
 
--Execute the Join Attributes by Field Value algorithm. The first Input Layer is the regular mass shooting data with table field as total firearms brought to the scene, second input is MS Community data with the Table Field data as N of gun stores in zip code. Select discard records which can’t be joined.
+-Execute the Join Attributes by Field Value algorithm. The first Input Layer is the regular mass shooting data with Table Field set to "total firearms brought to the scene".
+The second input layer is the mass shooting community data with the Table Field data as "N of gun stores in zip code". Check the box with "discard records which could not be joined".
 
-5.	In the new joined layer change the symbology to Graduated with N Gun Stores in Zip Code as the Value. The mode is Fixed Interval with size 1 and with Classes set to 4.
+-In the new joined layer I changed the symbology to Graduated with "N Gun Stores in Zip Code" as the Value. The Mode is "Fixed Interval" with interval size set to 1 and with Classes set to 4.
 
 Display
 
