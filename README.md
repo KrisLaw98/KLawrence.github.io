@@ -61,12 +61,18 @@ In this exercise, I used data from [Cape Town Open Data Portal](https://opendata
 
 I then save all three layers locally as shapefiles (CBD, Zoning, and Split Zoning).
 
-Open the Processing Toolbox to find and use the Intersection algorithm operation between the Zoning and CBD layers, and Split Zoning and CBD layers.
-- Fix geometries for Zoning and Split Zoning layers to address any invalid geometries.
-- Save the fixed geometry layers as zoning_fixed.shp and split_zoning_fixed.shp.
+Open the Processing Toolbox to find and use the Intersection algorithm operation which extracts the overlapping portions of the Zoning and CBD layers, and the Split Zoning and CBD layers.
 
+I had to fix geometries for all the layers using the Fix Geometries algorithm in the Processing Toolbox to address their invalid geometries.
+
+Lastly, I styled the Zoning layer with Categorized based on zoning codes Value, merging each sub-category for better visualization.
+   - Adjust symbology, colors, and labels for each zoning category.
+   - Copy and paste the styling from the Zoning layer to the Split Zoning layer
 
 An image of the final product is displayed below.
+
+![Layout](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/a7ed3fa2-5805-4771-a7c1-394ae53f85d6)
+
 
 [Return to top](#jump-to-section)
 
