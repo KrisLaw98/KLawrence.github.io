@@ -125,18 +125,17 @@ An image of the final product is displayed below.
 
 
 
-In this exercise, I used data from the [The Violence Project Mass Shooter Database](https://www.theviolenceproject.org/mass-shooter-database/) and [Homeland Infrastructure Foundation-Level Data (HIFLD) Open Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::local-law-enforcement-locations/explore?filters=eyJUWVBFIjpbIkxPQ0FMIFBPTElDRSBERVBBUlRNRU5UIl19&location=26.839486%2C-96.938262%2C3.00) to create an interpolated elevation surface of Lake Arlington, clip it to the lake boundary, generate contours, and add labels for elevation values. 
+In this exercise, I used data from the [The Violence Project Mass Shooter Database](https://www.theviolenceproject.org/mass-shooter-database/) and [Homeland Infrastructure Foundation-Level Data (HIFLD) Open Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::local-law-enforcement-locations/explore?filters=eyJUWVBFIjpbIkxPQ0FMIFBPTElDRSBERVBBUlRNRU5UIl19&location=26.839486%2C-96.938262%2C3.00) to create map showcasing mass shootings within the United States of America from August 1, 1966 to May 6, 2023. 
 
+-First, I downloaded the first Excel spreadsheet with the mass shooting data in it from the database. I then Converted it to a .csv format and imported it to QGIS as a Delimited Text Layer. 
 
-1.	Download the excel spreadsheet with MS data in it. Convert to csv and then import to QGIS as Delimited Text Layer. Change symbology to heatmap and weigh points by number killed, change blending mode to multiply and change radius to 8 mm. Change the Label to Single Label and Value to Number Killed and render it to a scale of 1:4725400  so it permanently shows at that scale.
-2.	Download Local police department Locations from Homeland Infrastructure Foundation-Level Data(HIFLD) OPEN DATA (using the filter ). 
-Local Law Enforcement Locations (feature class/shapefile)
-Summary
-This feature class/ shapefile contains law enforcement agencies as defined by the US Department of Justice - Bureau of Justice Statistics for the Homeland Infrastructure Foundation-Level Data (HIFLD) database. https://hifld-geoplatform.opendata.arcgis.com
-Same instructions as 1. above but with a point coordinate geometry definition and change symbol blending mode to multiply and size to .4 mm.
-3.	Download the excel spreadsheet with MS Community data in it. Convert to csv and then import to QGIS as Delimited Text Layer. Filter for 1 or more gun stores in zip code - "N Gun Stores in Zip Code" >= 1.
+-Changed the symbology to heatmap and weigh points by number killed, changed blending mode to multiply, and changed radius to 8 mm. Changed the Label to Single Label and Value to Number Killed and rendered it to a scale of 1:4725400  so it shows when zoomed at that scale.
 
-4.	Execute the Join attributes by field value process. The first input is the MS data with table field as total firearms brought to the scene, second input is MS Community data with table field data as N of gun stores in zip code. Select discard records which can’t be joined.
+-Filtered the data from the Local Law Enforcement Locations feature class/shapefile and specifically downloaded the Local police department Locations from Homeland Infrastructure Foundation-Level Data (HIFLD) as an Excel spreadsheet. Convert to a .csv format and import into QGIS as a Delimited Text Layer but with a point coordinate geometry definition and change symbol blending mode to multiply and size to .4 mm.
+
+-I also downloaded the Excel spreadsheet with mass shooting community-level data that contains demographic information. Convert to .csv format and then import to QGIS as Delimited Text Layer. Filter this new layer for 1 or more gun stores in zip code -> "N Gun Stores in Zip Code" >= 1.
+
+-Execute the Join Attributes by Field Value algorithm. The first Input Layer is the regular mass shooting data with table field as total firearms brought to the scene, second input is MS Community data with the Table Field data as N of gun stores in zip code. Select discard records which can’t be joined.
 
 5.	In the new joined layer change the symbology to Graduated with N Gun Stores in Zip Code as the Value. The mode is Fixed Interval with size 1 and with Classes set to 4.
 
