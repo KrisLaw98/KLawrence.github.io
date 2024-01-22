@@ -127,7 +127,7 @@ An image of the final product is displayed below.
 
 In this exercise, I used data from the [The Violence Project Mass Shooter Database](https://www.theviolenceproject.org/mass-shooter-database/) and [Homeland Infrastructure Foundation-Level Data (HIFLD) Open Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::local-law-enforcement-locations/explore?filters=eyJUWVBFIjpbIkxPQ0FMIFBPTElDRSBERVBBUlRNRU5UIl19&location=26.839486%2C-96.938262%2C3.00) to create map showcasing mass shootings within the United States of America from August 1, 1966 to May 6, 2023. 
 
--First, I downloaded the first Excel spreadsheet with the mass shooting data in it from the database. I then Converted it to a .csv format and imported it to QGIS as a Delimited Text Layer. 
+-First, I downloaded the first Excel spreadsheet with the mass shooting data from the database. I then Converted it to a .csv format and imported it to QGIS as a Delimited Text Layer. 
 
 -Changed the symbology to heatmap and weigh points by number killed, changed blending mode to multiply, and changed radius to 8 mm. Changed the Label to Single Label and Value to Number Killed and rendered it to a scale of 1:4725400  so it shows when zoomed at that scale.
 
@@ -142,11 +142,17 @@ The second input layer is the mass shooting community data with the Table Field 
 
 Display
 
-The heatmap I used for the symbology in Step #1 does not display in the legend for the print layout. I researched a way to do this and I found out about the Heatmap (Kernel Density Estimation) tool. I used the MS Database layer as the point layer and left everything to default and then I ran it. A new heatmap raster was created and then I edited the symbology – I set the render type to singleband pseudocolor with the Min and Max set to the lowest no. of people killed and most no. of people killed respectively. I set the mode to equal interval and put a minimum of 19 classes to create a makeshift heatmap for the legend in theprint layout.
+-The heatmap I used for the symbology does not display in the legend for the print layout. I researched a way to do this and learned about the Heatmap (Kernel Density Estimation) tool. I used the mass shooting database layer as the point layer, left everything to default, and then ran it.
 
+-A new heatmap raster was created and then I edited the symbology –> I set the render type to singleband pseudocolor with the Min and Max set to the lowest no. of people killed (4) and most no. of people killed (60) in mass shootings up to that date respectively. I set the Mode to "equal interval" and put a minimum of 19 classes to create the makeshift heatmap for the legend in the print layout.
 
 
 Images of the final product are displayed below.
+
+![completed NA Mland](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/709d9f79-5ff8-4487-bc99-25095fecdc5c)
+
+![completed Alaska and Hawaii](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/67561c2a-5f87-400e-8821-2c10979b1ee6)
+
 
 [Return to top](#jump-to-section)
 
