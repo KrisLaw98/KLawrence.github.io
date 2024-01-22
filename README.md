@@ -71,6 +71,7 @@ Lastly, I styled the Zoning layer with Categorized based on zoning codes Value, 
 
 An image of the final product is displayed below.
 
+
 ![Layout](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/a7ed3fa2-5805-4771-a7c1-394ae53f85d6)
 
 
@@ -116,6 +117,7 @@ Add Labels to Contours:
 
 An image of the final product is displayed below.
 
+
 ![Layout 1](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/31d6a49f-f129-4d36-b153-c820f279e412)
 
 
@@ -140,7 +142,8 @@ The second input layer is the mass shooting community data with the Table Field 
 
 -In the new joined layer I changed the symbology to Graduated with "N Gun Stores in Zip Code" as the Value. The Mode is "Fixed Interval" with interval size set to 1 and with Classes set to 4.
 
-- Turn on Labels for the regular mass shooting data layer and set it to Single Labels with the Value as Number Killed to display this specific data (in green) at the areas where the shootings occured.
+Turn on Labels for the regular mass shooting data layer and set it to Single Labels with the Value as Number Killed to display this specific data (in green) at the areas where the shootings occurred.
+
 
 Display
 
@@ -149,7 +152,9 @@ Display
 -A new heatmap raster was created and then I edited the symbology –> I set the render type to singleband pseudocolor with the Min and Max set to the lowest no. of people killed (4) and most no. of people killed (60) in mass shootings up to that date respectively. I set the Mode to "equal interval" and put a minimum of 19 classes to create the makeshift heatmap for the legend in the print layout.
 
 
+
 Images of the final product are displayed below.
+
 
 ![completed NA Mland](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/709d9f79-5ff8-4487-bc99-25095fecdc5c)
 
