@@ -47,6 +47,9 @@ I then styled the one-way streets with arrows in the layer Styling Panel:
 
 An image of the final product is displayed below. To access an interactive version of the map style, just click [here](https://jaxgoodlabs.github.io/GIS_portfolio/peoples-square.html).
 
+![Layout 1](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/af8a6ac4-597b-42d3-9703-1030ddf1dfcc)
+
+
 <p align="center">
 <img width="800" height="450" src="https://user-images.githubusercontent.com/32546509/77235533-cc92fd00-6b8c-11ea-89fa-86e10101dde3.JPG">
 </p>
