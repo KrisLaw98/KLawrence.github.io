@@ -23,8 +23,8 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [Creating a Map From an Online Mass Shooting Database](#creating-a-map-from-an-online-mass-shooting-database) 
 - [World Earthquakes](#world-earthquakes) 
 - [Service Area Analysis using Openrouteservice](#service-area-analysis-using-openrouteservice)
-- [Sustainable Campus Project](#sustainable-campus-project) 
-- [Sustainable City Project](#sustainable-city-project) 
+- [Creating an Airport Location Map Using Python Scripting](#creating-an-airport-location-map-using-python-scripting) 
+- [DEM of Crystal Mountain National Park, Gabon](#dem-of-crystal-mountain-national-park,-gabon) 
 - [Norwalk Transportation Project](#norwalk-transportation-project)
 - [Pittsburgh EV Site Analysis Project](#pittsburgh-electric-vehicle-site-analysis) 
 - [Optimizing Coverage of Hunting Areas for Maximum Removal of Burmese Pythons in South Florida](#optimizing-coverage-of-hunting-areas-for-maximum-removal-of-burmese-pythons-in-south-florida) 
@@ -292,7 +292,7 @@ A secondary goal of this project was to troubleshoot various tutorials and flood
 
 [Return to top](#jump-to-section)
 
-## Sustainable Campus Project
+## Creating an Airport Location Map Using Python Scripting
 
 <p align="center">
 <img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/80049872-1e0f0e80-84e2-11ea-99b5-3ff09698fc8c.JPG">
@@ -302,7 +302,7 @@ Click [here](https://jaxgoodlabs.github.io/GIS_portfolio/sustainable-campus) to 
 
 [Return to top](#jump-to-section)
 
-## Sustainable City Project
+## DEM of Crystal Mountain National Park, Gabon
 
 <p align="center">
 <img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/83973007-78590880-a8b1-11ea-8c1f-6ab0df87929f.png">
