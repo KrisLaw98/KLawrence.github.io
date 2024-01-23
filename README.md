@@ -223,11 +223,64 @@ An image of the final product is displayed below.
 
 ## Creating an Airport Location Map Using Python Scripting
 
-<p align="center">
-<img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/80049872-1e0f0e80-84e2-11ea-99b5-3ff09698fc8c.JPG">
-</p>
+In this exercise, I used data from the [Natural Earth](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/airports/) and python scripting to create a map showing the locations of airports around the world.
 
-Click [here](https://jaxgoodlabs.github.io/GIS_portfolio/sustainable-campus) to view the final report for this project. The interactive final product can be accessed [here](https://jaxgoodlabs.github.io/Sustainable_Campus/).
+-First, download the airport shapefile data from Natural Earth
+
+-- **Access Python Console:**
+  - Open the Python Console by going to `Plugins` -> `Python Console`.
+
+#### 4. Python Scripting in QGIS
+
+- **Get Reference to Active Layer:**
+  ```python
+  layer = iface.activeLayer()
+  ```
+
+- **Explore Layer Functions:**
+  ```python
+  dir(layer)
+  ```
+
+- **Iterate Through Features and Print Attributes:**
+  ```python
+  for f in layer.getFeatures():
+    print(f['name'], f['iata_code'])
+  ```
+
+- **Print Coordinates of Each Feature:**
+  ```python
+  for f in layer.getFeatures():
+    geom = f.geometry()
+    print(geom.asPoint())
+  ```
+
+- **Print Name, Code, Latitude, and Longitude:**
+  ```python
+  for f in layer.getFeatures():
+    geom = f.geometry()
+    print('{},{},{:.2f},{:.2f}'.format(f['name'], f['iata_code'], geom.asPoint().y(), geom.asPoint().x()))
+  ```
+
+- **Write Data to a Text File:**
+  ```python
+  with open('/path/to/your/output/airports.txt', 'w') as file:
+    for f in layer.getFeatures():
+      geom = f.geometry()
+      line = '{},{},{:.2f},{:.2f}\n'.format(f['name'], f['iata_code'], geom.asPoint().y(), geom.asPoint().x())
+      file.write(line)
+  ```
+
+#### 5. View Output
+
+- **Check Output:**
+  - Open the specified output file location (`/path/to/your/output/airports.txt`) to view the extracted data.
+
+
+
+
+
+
 
 [Return to top](#jump-to-section)
 
