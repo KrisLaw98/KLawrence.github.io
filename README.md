@@ -163,14 +163,32 @@ Images of the final product are displayed below.
 
 [Return to top](#jump-to-section)
 
-## World Earthquakes
+## World Earthquakes ( Magnitude 5 - 8 )
 
 ### Earthquake Hazard Frequency and Distribution ( August 27 - October 27, 2023)
 
-In this exercise, I used data from the [United States Geological Survey (USGS)](https://earthquake.usgs.gov/earthquakes/map/?extent=-13.06878,-201.62109&extent=73.07384,22.5&sort=oldest) and [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/) to create map showcasing world earthquakes and their hazard frequency and distribution from August 27, 2023 to October 27, 2023. 
+In this exercise, I used data from the [United States Geological Survey (USGS)](https://earthquake.usgs.gov/earthquakes/map/?extent=-13.06878,-201.62109&extent=73.07384,22.5&sort=oldest) and [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/) to create map showcasing world earthquakes with a magnitude between 5 - 8, and their hazard frequency and distribution from August 27, 2023 to October 27, 2023. 
 
--First
+-First, I searched for historical earthquake data from the USGS website.
 
+-Select criteria (date- August 27 to October 27, 2023, magnitude between 5 and 8), download the Excel file with the data and convert it, and import it into QGIS as a delimited text layer.
+   
+-Change the symbology to Categorized with 3 classes with the Mode being Equal Interval and the Value being "magnitude".
+
+-Now change the symbology to Rule-Based. It will automatically create the rules for each label based on the previous selections in the previous step.
+
+-Turn on the labels for this layer and set the Value to "magnitude" to display the magnitude at each earthquake location.
+
+-Within the browser, make a connection to the Web Map Service (WMS) Socioeconomic Data and Applications Center (SEDAC).
+
+-Select the Earthquake Hazard Frequency and Distribution layer.
+
+-Change the symbology of this Earthquake Hazard Frequency and Distribution layer to slightly transparent.
+
+An image of the final product is displayed below.
+
+
+![Earthquake HF D](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/0985e8e8-670d-4564-af06-9eeaed052c64)
 
 
 [Return to top](#jump-to-section)
