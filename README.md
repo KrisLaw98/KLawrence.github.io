@@ -285,11 +285,25 @@ See images of the final product below.
 
 ## DEM of Crystal Mountain National Park, Gabon
 
-<p align="center">
-<img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/83973007-78590880-a8b1-11ea-8c1f-6ab0df87929f.png">
-</p>
+In this exercise, I used data from the [United States Geological Survey(USGS)](https://earthexplorer.usgs.gov/download/options/srtm_v3/SRTM1N00E010V3/) to create a map showcasing the DEM of the Crystal Mountain National Park in Gabon.
 
-Click [here](https://jaxgoodlabs.github.io/SustainableCity/) to view the interactive final product.
+
+-First, download the GEOTIFF raster Layer from EarthExplorer-USGS.
+
+-Then select Processing Toolbox -> Contour Polygons
+
+-Select the Raster image as the input layer. Change the Interval between contour lines to 100, and within advanced parameters check the box that says "produce 3D vector". Press "Run".
+
+-Edit the symbology for the new contour layer by adding the Draw Effect called Drop Shadow, setting it to 1.5.
+   
+-Change the stroke width to hairline. 
+
+-Change symbology to Graduated with the value set to Max Elevation. Make it 20 classes with Equal Interval mode.
+
+See the final product below.
+
+![DEM(without contour line layer)](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/9ed67a13-bb44-44ad-aa40-6371628194ec)
+
 
 [Return to top](#jump-to-section)
 
