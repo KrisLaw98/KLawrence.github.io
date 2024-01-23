@@ -277,7 +277,8 @@ See images of the final product below.
 
 ![Airports notepad output](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/403a48e0-3ad3-4438-8507-96cf755b8563)
 
-![Location of airports](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/37f94bde-61da-4eee-b095-a9a9e573e8e8)
+![airports](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/1cac44d7-905f-4874-a2ec-939ecd64a566)
+
 
 
 [Return to top](#jump-to-section)
