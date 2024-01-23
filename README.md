@@ -227,6 +227,8 @@ In this exercise, I used data from the [Natural Earth](https://www.naturalearthd
 
 -First, download the airport shapefile data from Natural Earth
 
+Then:
+
 -- **Access Python Console:**
   - Open the Python Console by going to `Plugins` -> `Python Console`.
 
