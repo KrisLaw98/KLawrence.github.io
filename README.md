@@ -185,10 +185,12 @@ In this exercise, I used data from the [United States Geological Survey (USGS)](
 
 -Change the symbology of this Earthquake Hazard Frequency and Distribution layer to slightly transparent.
 
+
 An image of the final product is displayed below.
 
 
-![Earthquake HF D](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/0985e8e8-670d-4564-af06-9eeaed052c64)
+![Earthquake HF D](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/01a51985-37f1-4226-b82b-afe6b1184cca)
+
 
 
 [Return to top](#jump-to-section)
