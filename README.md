@@ -125,7 +125,7 @@ An image of the final product is displayed below.
 
 ## Creating a Map From an Online Mass Shooting Database
 
-
+### USA Mass Shootings (August 6, 1966 - May 6, 2023)
 
 In this exercise, I used data from the [The Violence Project Mass Shooter Database](https://www.theviolenceproject.org/mass-shooter-database/) and [Homeland Infrastructure Foundation-Level Data (HIFLD) Open Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::local-law-enforcement-locations/explore?filters=eyJUWVBFIjpbIkxPQ0FMIFBPTElDRSBERVBBUlRNRU5UIl19&location=26.839486%2C-96.938262%2C3.00) to create map showcasing mass shootings within the United States of America from August 1, 1966 to May 6, 2023. 
 
@@ -165,27 +165,13 @@ Images of the final product are displayed below.
 
 ## World Earthquakes
 
-While exploring my location data in ArcGIS data - which curiously included data just from 2015, 2019 and 2020 - the first thing that struck me was how spotty the coverage was. I had thoroughly expected to see a complete saturation of points throughout my travel range, but for many trips, found only single points representing a final destination. These were long, drawn out car trips, some of them covering multiple days of travel, and yet Google seems to have only collected a single data point from the whole trip.
+### Earthquake Hazard Frequency and Distribution ( August 27 - October 27, 2023)
 
-The two notable exceptions to this rule are my more regular commutes, e.g., between Miami and West Palm Beach when I was living in West Palm Beach and hunting pythons in Miami on the weekends, and longer trips that I took more than once, e.g., my trip from my permanent residence in Jacksonville, FL up to school in Pittsburgh. A lot of my traveling, particularly in Florida. passes through cell-coverage dead zones, so I assume that of the spottiness in data collection owes to that fact. That might also explain the single erroneous point near Fort Walton Beach in the Florida panhandle. While I passed in that general vicinity on one or two occasions during this period, that particular point is pretty far off from any of the routes I would've taken. 
+In this exercise, I used data from the [United States Geological Survey (USGS)]([https://www.theviolenceproject.org/mass-shooter-database/](https://earthquake.usgs.gov/earthquakes/map/?extent=-13.06878,-201.62109&extent=73.07384,22.5&sort=oldest)) and [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/) to create map showcasing world earthquakes and their hazard frequency and distribution from August 27, 2023 to October 27, 2023. 
 
-My dead zone theory is also consistent with the absence of points west of the Tamiami Trail/Krome Ave. intersection in Sweetwater, FL. This area, which passes through Everglades and Big Cypress National Parks, is where I did all my hunting for the python program, but has notoriously poor cell coverage. 
+-First
 
-The other interesting thing I noticed about my location data is how sprawling my data is around the areas that I live. The first thing I do when I settle into a new place is starting exploring the nearest natural areas with hiking opportunities. Often, the closest locations are maybe a half-hour drive from my apartment in the city, but after a year or two, I'm up to driving two or three hours away to find new parks to explore. This pattern is most noticeable around Pittsburgh (my current residence) and Jacksonville, FL (my permanent residence). 
 
-<p align="left">
-<img width="38.1%" height="38.1%" src="https://user-images.githubusercontent.com/32546509/79076040-e8d61580-7cc4-11ea-8a5f-941fb5e093a2.JPG"> <img width="60.3%" height="60.3%" src="https://user-images.githubusercontent.com/32546509/79076036-e2e03480-7cc4-11ea-9b77-d68aa0b6e1d1.JPG">
-</p>
-
-I was surprised at how little order I could discern at a high scale. If I had no special knowledge, I doubt I would be able to discern from the concentration of points alone anything beyond where I lived and where I've been. My work and school locations were not at all obvious even at the narrowest zoom ranges (although perhaps referencing what's located at each of these points in conjunction with the date and time stamps would clue me in).
-
-The location of my home was easier to discern, but still required some fine-combing through the data. Of course, there's a lot more information embedded in this data than is apparent in the distribution of the points alone, and I imagine that it wouldn't be difficult to answer these sorts of questions once my data was aggregated with that of other users, since these patterns probably don't differ too drastically between members of the same general category (e.g., university students). 
-
-To see how easily I could extract this sort of information from these data, I used the hexagon binning option in the aggregate points tool to aggregate the number of points located in each tenth mile squared cell. Sure enough, this method resolved all the ambiguity of the previous display. Using a contrasting blue-yellow color scheme made my home and frequent locations pretty unmistakable, as the image below demonstrates.
-
-<p align="center">
-<img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/79072713-7a875800-7cb0-11ea-9c13-60147f423540.JPG">
-</p>
 
 [Return to top](#jump-to-section)
 
