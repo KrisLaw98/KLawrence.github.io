@@ -199,9 +199,25 @@ An image of the final product is displayed below.
 
 ### Kochi Metro Rail Limited Metro System Service-Area Analysis
 
-In this exercise, I used data from the [Kochi Metro Rail Limited (KMRL) Open Data](https://kochimetro.org/open-data/) to create map showcasing the service-area analysis of the Kochi Metro Rail Limited Metro System.
+In this exercise, I used data from the [Kochi Metro Rail Limited (KMRL) Open Data](https://kochimetro.org/open-data/) to create map showcasing the service-area analysis of the Kochi Metro Rail Limited Metro System using Openrouteservice (ORS).
 
--First
+-First, download the metro rail station data for Kochi, India in GTFS format from Kochi Metro Rail Limited.
+
+-Use QGIS Data Source Manager to import shapes.txt and stops.txt files from the GTFS data.
+   - Convert the points in the shapes layer to a line layer representing the path of the metro line using the Points to Path tool.
+
+-Use the ORS Tools Isochrones From Point-Layer tool for network analysis.
+   - Select openrouteservice as the provider, stops as the input point layer, and specify parameters like travel mode (foot-walking and cycling) and time dimension (15 minutes).
+   - Set the Location Type to "start" which treats the location(s) as starting point, and the destination as the goal.
+   - Run the tool to generate isochrones representing areas accessible within a 15-minute walk and cycle from each metro station.
+
+-Add the OpenStreetMap basemap to the canvas to visualize the results in the context of the road network.
+
+An image of the final product is displayed below.
+
+
+![Service Area Analysis using Openrouteservice](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/eb5660ee-f341-4ac6-bd3d-d38a5d0c7dea)
+
 
 [Return to top](#jump-to-section)
 
