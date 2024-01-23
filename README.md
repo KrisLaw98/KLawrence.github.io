@@ -167,7 +167,7 @@ Images of the final product are displayed below.
 
 ### Earthquake Hazard Frequency and Distribution ( August 27 - October 27, 2023)
 
-In this exercise, I used data from the [United States Geological Survey (USGS)]([https://www.theviolenceproject.org/mass-shooter-database/](https://earthquake.usgs.gov/earthquakes/map/?extent=-13.06878,-201.62109&extent=73.07384,22.5&sort=oldest)) and [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/) to create map showcasing world earthquakes and their hazard frequency and distribution from August 27, 2023 to October 27, 2023. 
+In this exercise, I used data from the [United States Geological Survey (USGS)](https://earthquake.usgs.gov/earthquakes/map/?extent=-13.06878,-201.62109&extent=73.07384,22.5&sort=oldest) and [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/) to create map showcasing world earthquakes and their hazard frequency and distribution from August 27, 2023 to October 27, 2023. 
 
 -First
 
