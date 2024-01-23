@@ -229,10 +229,10 @@ In this exercise, I used data from the [Natural Earth](https://www.naturalearthd
 
 Then:
 
--- **Access Python Console:**
+**Access the Python Console:**
   - Open the Python Console by going to `Plugins` -> `Python Console`.
 
-#### 4. Python Scripting in QGIS
+#### Python Scripting Steps
 
 - **Get Reference to Active Layer:**
   ```python
@@ -273,15 +273,11 @@ Then:
       file.write(line)
   ```
 
-#### 5. View Output
+See images of the final product below.
 
-- **Check Output:**
-  - Open the specified output file location (`/path/to/your/output/airports.txt`) to view the extracted data.
+![Airports notepad output](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/403a48e0-3ad3-4438-8507-96cf755b8563)
 
-
-
-
-
+![Location of airports](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/37f94bde-61da-4eee-b095-a9a9e573e8e8)
 
 
 [Return to top](#jump-to-section)
