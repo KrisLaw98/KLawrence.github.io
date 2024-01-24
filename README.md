@@ -317,13 +317,15 @@ In this exercise, I used animal tracking data from the [Movebank](https://www.mo
 -Add the World Imagery basemap and make the map projection "The World from Space". Add the Bathymetry Light basemap and make the Layer Blend overlay to make it visually appealing.
 
 -Edit the symbology of the point features and create a field within the attribute table called “month”. Change the new field’s data type to short.
-  -Open the field calculator and select “points” as the input table, month as the Field Name, and Arcade as the Expression Type. Use ISOMonth which returns the month of the given data from 1-12 where January is 1 and December is 12.
-    -Type-  ```python ISOMonth($feature.timestamp) ``` and select apply. The “month” field will now be filled and synced with the “timestamp” field in the attribute table.
+  
+-Open the field calculator and select “points” as the input table, month as the Field Name, and Arcade as the Expression Type. Use ISOMonth which returns the month of the given data from 1-12 where January is 1 and December is 12.
+    
+-Type ```ISOMonth($feature.timestamp)``` and select apply. The “month” field will now be filled and synced with the “timestamp” field in the attribute table.
 
-Duplicate the points layer 11 times to have a total of 12 points for each month.
+-Duplicate the points layer 11 times to have a total of 12 points for each month.
 Filter each point by opening the layer properties -> Definition Query and create the query: WHERE “month” IS EQUAL TO #(from 1-12 in order). Each layer will correspond to a month.
 
-Add additional map data of land surface to provide a visual of the ecosystems/habitats of the regions these birds migrate to by selecting Map -> Add data and search for  and open “USA Land Surface Forms” raster layer. 
+-Add additional map data for land surface to provide a visual of the ecosystems/habitats of the regions these birds migrate to by selecting Map -> Add data and search for  and open the “USA Land Surface Forms” raster layer. 
 
 
 [Return to top](#jump-to-section)
