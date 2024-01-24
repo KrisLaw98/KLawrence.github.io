@@ -309,7 +309,7 @@ See the final product below.
 
 ## American Bittern Migration
 
-In this exercise, I used animal tracking data from the [Movebank](https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study438644854) to create a map showcasing the migration pattern of twenty adult male American Bitterns (Botaurus lentiginosus).
+In this exercise, I used animal tracking data from the [Movebank](https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study438644854) to create a map showcasing the migration pattern of twenty adult male American Bitterns (Botaurus lentiginosus) between July 13, 1998 to July 23, 2003.
 
 -First, download data from Movebank.org as an ESRI shapefile.
  Import the files to the geodatabase within the Catalog pane by selecting `Import` -> `Feature Class(es)` to geoprocess it.
@@ -327,7 +327,7 @@ Filter each point by opening the `layer properties` -> `Definition Query` and cr
 
 -Add additional map data for the land surface to provide a visual of the ecosystems/habitats of the regions these birds migrate to by selecting `Map` -> `Add data` and searching for and opening the “USA Land Surface Forms” raster layer. 
 
-
+Below is the final product showing all locations that the American Bitterns migrated to.
 
 ![NewLayout1](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/d624fdaa-48f5-48b0-ac57-128555086a78)
 
