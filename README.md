@@ -16,7 +16,7 @@ My most recent projects have focused on public interest technologies that help t
 View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/Patrick%20Campbell%20Resume.pdf).
 
 #### Jump to Section
-QGIS
+###QGIS
 
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
 - [Creating a Landuse Map ](#creating-a-landuse-map ) 
@@ -28,13 +28,11 @@ QGIS
 - [Creating an Airport Location Map Using Python Scripting](#creating-an-airport-location-map-using-python-scripting) 
 - [DEM of Crystal Mountain National Park, Gabon](#dem-of-crystal-mountain-national-park,-gabon)
 
-ArcGIS
+###ArcGIS
 
 - [American Bittern Migration](#american-bittern-migration)
-- [Pittsburgh EV Site Analysis Project](#pittsburgh-electric-vehicle-site-analysis) 
-- [Optimizing Coverage of Hunting Areas for Maximum Removal of Burmese Pythons in South Florida](#optimizing-coverage-of-hunting-areas-for-maximum-removal-of-burmese-pythons-in-south-florida) 
-- [Bumblebee Conservation in the Midwest US](#bumblebee-conservation-in-the-midwest-us)
-- [Resilience Oriented Planning Map](#resilience-oriented-planning-map)
+- [Recruiting Patterns](#recruiting-patterns) 
+
 
 ## Basic Network Visualization and Routing
 
@@ -343,15 +341,12 @@ Below is the final product showing all locations that the American Bitterns migr
 
 [Return to top](#jump-to-section)
 
-## 2023-24 Men's College Basketball Recruiting Footprint
-#
+## Recruiting Patterns
+###2023-24 Men's College Basketball Recruiting Footprint
 
-In this exercise, I used animal tracking data from [ESPN](https://www.espn.com/mens-college-basketball/rankings/_/week/1/year/2024/seasontype/2) and Microsoft Excel to create a map showcasing the recruiting patterns.
+In this exercise, I used data from [ESPN](https://www.espn.com/mens-college-basketball/rankings/_/week/1/year/2024/seasontype/2) and Microsoft Excel to create a map showcasing the recruiting patterns for the 2023-24 Men's College Basketball season on four of the top college basketball teams in the United States based on the preseason AP/Coaches Poll rankings.
 
 
-
- 4 of the top college basketball teams in the United States based on the preseason AP/Coaches Poll rankings.
- 
 -First, manually create a spreadsheet with player and team information obtained from ESPN. 
 
 -Add a longitude and latitude field in the spreadsheet for each school location, find the coordinates of each school’s stadium, and copy and paste it there. Save the spreadsheet.
