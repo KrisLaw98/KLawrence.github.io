@@ -290,7 +290,7 @@ In this exercise, I used data from the [United States Geological Survey(USGS)](h
 
 -First, download the GEOTIFF raster Layer from EarthExplorer-USGS.
 
--Then select Processing Toolbox -> Contour Polygons
+-Then select `Processing Toolbox` -> `Contour Polygons`
 
 -Select the Raster image as the input layer. Change the Interval between contour lines to 100, and within advanced parameters check the box that says "produce 3D vector". Press "Run".
 
@@ -312,7 +312,7 @@ See the final product below.
 In this exercise, I used animal tracking data from the [Movebank](https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study438644854) to create a map showcasing the migration pattern of twenty adult male American Bitterns (Botaurus lentiginosus).
 
 -First, download data from Movebank.org as an ESRI shapefile.
- Import the files to the geodatabase within the Catalog pane by selecting Import -> Feature Class(es) to geoprocess it.
+ Import the files to the geodatabase within the Catalog pane by selecting `Import` -> `Feature Class(es)` to geoprocess it.
 
 -Add the World Imagery basemap and make the map projection "The World from Space".
 
@@ -323,9 +323,9 @@ In this exercise, I used animal tracking data from the [Movebank](https://www.mo
 -Type ```ISOMonth($feature.timestamp)``` and select apply. The “month” field will now be filled and synced with the “timestamp” field in the attribute table.
 
 -Duplicate the points layer 11 times to have a total of 12 points for each month.
-Filter each point by opening the layer properties -> Definition Query and create the query: WHERE “month” IS EQUAL TO #(from 1-12 in order). Each layer will correspond to a month.
+Filter each point by opening the `layer properties` -> `Definition Query` and create the query: `WHERE` “`month`” `IS EQUAL TO` #(from 1-12 in order). Each layer will correspond to a month.
 
--Add additional map data for land surface to provide a visual of the ecosystems/habitats of the regions these birds migrate to by selecting Map -> Add data and search for  and open the “USA Land Surface Forms” raster layer. 
+-Add additional map data for land surface to provide a visual of the ecosystems/habitats of the regions these birds migrate to by selecting `Map` -> `Add data` and searching for and opening the “USA Land Surface Forms” raster layer. 
 
 
 [Return to top](#jump-to-section)
