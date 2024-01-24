@@ -25,7 +25,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [Service Area Analysis using Openrouteservice](#service-area-analysis-using-openrouteservice)
 - [Creating an Airport Location Map Using Python Scripting](#creating-an-airport-location-map-using-python-scripting) 
 - [DEM of Crystal Mountain National Park, Gabon](#dem-of-crystal-mountain-national-park,-gabon) 
-- [Norwalk Transportation Project](#norwalk-transportation-project)
+- [American Bittern Migration](#american-bittern-migration)
 - [Pittsburgh EV Site Analysis Project](#pittsburgh-electric-vehicle-site-analysis) 
 - [Optimizing Coverage of Hunting Areas for Maximum Removal of Burmese Pythons in South Florida](#optimizing-coverage-of-hunting-areas-for-maximum-removal-of-burmese-pythons-in-south-florida) 
 - [Bumblebee Conservation in the Midwest US](#bumblebee-conservation-in-the-midwest-us)
