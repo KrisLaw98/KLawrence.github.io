@@ -17,7 +17,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 
 #### Jump to Section
 
-###[QGIS](#QGIS)
+[QGIS](#QGIS)
 
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
 - [Creating a Landuse Map ](#creating-a-landuse-map ) 
@@ -29,7 +29,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [Creating an Airport Location Map Using Python Scripting](#creating-an-airport-location-map-using-python-scripting) 
 - [DEM of Crystal Mountain National Park, Gabon](#dem-of-crystal-mountain-national-park,-gabon)
 
-###[ArcGIS](#ArcGIS)
+[ArcGIS](#ArcGIS)
 
 
 - [American Bittern Migration](#american-bittern-migration)
