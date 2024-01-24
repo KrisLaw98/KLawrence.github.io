@@ -336,40 +336,14 @@ Below is the final product showing all locations that the American Bitterns migr
 
 ## Pittsburgh Electric Vehicle Site Analysis
 
-<p align="center">
-<img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/80050002-79410100-84e2-11ea-9ced-5082f60267e9.JPG">
-</p>
+In this exercise, I used animal tracking data from the [ESPN](https://www.espn.com/mens-college-basketball/rankings/_/week/1/year/2024/seasontype/2) to create a map showcasing the recruiting patterns.
 
-Click [here](https://github.com/jaxgoodlabs/Pitt_EV_Bike_Ped_Site_Analysis) to view this project on GitHub.
 
-[Return to top](#jump-to-section)
 
-## Optimizing Coverage of Hunting Areas for Maximum Removal of Burmese Pythons in South Florida
 
-<p align="center">
-<img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/80058259-cb8c1d00-84f6-11ea-919a-03ca89bd5605.JPG">
-</p>
 
-Click [here](https://jaxgoodlabs.github.io/sfwmd-python-program) to view the final report for this project.
+![Layout](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/e5345d11-1822-4433-86bc-47e1c212ff04)
+
 
 [Return to top](#jump-to-section)
 
-## Bumblebee Conservation in the Midwest US
-
-<p align="center">
-<img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/83971918-9ae82300-a8ab-11ea-82e8-bf18962a0587.JPG">
-</p>
-
-[View this map on ArcGIS Online](https://arcg.is/05XH5S0) or click [here](https://carnegiemellon.maps.arcgis.com/apps/MapSeries/index.html?appid=9dc0bb2905164cf4a9c71c6e6a972c63) to view the project Story Map. Access the final report [here](jaxgoodlabs.github.io/bumbleebee-conservation/).
-
-[Return to top](#jump-to-section)
-
-## Resilience Oriented Planning Map
-
-<p align="center">
-<img width="100%" height="100%" src="https://user-images.githubusercontent.com/32546509/83976614-14dad500-a8c9-11ea-829d-abff9be35343.png">
-</p>
-
-Click [here](https://jaxgoodlabs.github.io/pittsburgh-hazards-map) to view this project.
-
-[Return to top](#jump-to-section)
