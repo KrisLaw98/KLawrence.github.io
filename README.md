@@ -314,7 +314,7 @@ In this exercise, I used animal tracking data from the [Movebank](https://www.mo
 -First, download data from Movebank.org as an ESRI shapefile.
  Import the files to the geodatabase within the Catalog pane by selecting Import -> Feature Class(es) to geoprocess it.
 
--Add the World Imagery basemap and make the map projection "The World from Space". Add the Bathymetry Light basemap and make the Layer Blend overlay to make it visually appealing.
+-Add the World Imagery basemap and make the map projection "The World from Space".
 
 -Edit the symbology of the point features and create a field within the attribute table called “month”. Change the new field’s data type to short.
   
