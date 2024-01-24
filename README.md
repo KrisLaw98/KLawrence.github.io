@@ -16,6 +16,7 @@ My most recent projects have focused on public interest technologies that help t
 View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/Patrick%20Campbell%20Resume.pdf).
 
 #### Jump to Section
+
 ###QGIS
 
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
@@ -33,6 +34,9 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [American Bittern Migration](#american-bittern-migration)
 - [Recruiting Patterns](#recruiting-patterns) 
 
+
+
+[QGIS](#qgis)
 
 ## Basic Network Visualization and Routing
 
@@ -310,7 +314,8 @@ See the final product below.
 
 [Return to top](#jump-to-section)
 
-# ArcGIS
+[ArcGIS](#arcgis)
+
 
 I used a very limited ArcGIS Pro due to bugs. I was unable to edit the layer symbology as the software crashes whenever tried to.
 
