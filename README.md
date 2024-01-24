@@ -307,6 +307,10 @@ See the final product below.
 
 [Return to top](#jump-to-section)
 
+# ArcGIS
+
+I used a very limited ArcGIS Pro due to bugs. I was unable to edit the layer symbology as the software crashes whenever tried to.
+
 ## American Bittern Migration
 
 In this exercise, I used animal tracking data from the [Movebank](https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study438644854) to create a map showcasing the migration pattern of twenty adult male American Bitterns (Botaurus lentiginosus) between July 13, 1998 to July 23, 2003.
@@ -336,9 +340,34 @@ Below is the final product showing all locations that the American Bitterns migr
 
 ## Pittsburgh Electric Vehicle Site Analysis
 
-In this exercise, I used animal tracking data from the [ESPN](https://www.espn.com/mens-college-basketball/rankings/_/week/1/year/2024/seasontype/2) to create a map showcasing the recruiting patterns.
+In this exercise, I used animal tracking data from the [ESPN](https://www.espn.com/mens-college-basketball/rankings/_/week/1/year/2024/seasontype/2) and Microsoft Excel to create a map showcasing the recruiting patterns.
 
 
+
+ 4 of the top college basketball teams in the United States based on the preseason AP/Coaches Poll rankings.
+-First, manually create a spreadsheet with player and team information obtained from ESPN. 
+-Add a longitude and latitude field in the spreadsheet for each school location, find the coordinates of each school’s stadium and copy and paste it there. Save the spreadsheet.
+-Open ArcGIS Pro and go to Analysis -> Tools and search for Geocode Addresses (Geocode Tool).
+- Within this tool, Select the new excel file as the Input Table and from the drop-down menu under Input Address Locator select ArcGIS World Geocoding Service.
+-Match the appropriate Field Name with the appropriate Alias Name by selecting the corresponding items from the drop-down menus. Click Run.
+-A new layer will be created that marks all the locations of the players. Change its symbology to Unique Values and in Field 1 select School and it will automatically select different colors for each school associated with each player.
+- Go to Analysis -> Tools and search for the XY to Line tool
+-Within this tool, Select the new layer as the Input Table and from the drop-down menu under Start X Field and Start Y Field, select the hometown origin longitude and latitude respectively. Under End X Field and End Y Field, select the school longitude and latitude respectively. Check the “Preserve Attributes” box and click Run. This will create a layer with origin destination lines.
+- Change this line layer’s symbology to Unique Values and in Field 1 select School and it will automatically select different colors for each school associated with each line.
+Distances
+-To compare the relative distances of each school and c   I added a distance attribute to the origin destination line layer.
+-Go to Analysis -> Tools and search for the Calculate Geometry Attributes tool.
+- Within this tool, Select the origin destination line layer as Input Features and under Geometry Attributes, add “Distance” for Field and “Length (geodesic)” for Property. Select “Statute Miles” for Length Unit. Click Run.
+-The Distance (in miles) will now be in the attribute table for the origin destination line layer. To get aggregated statistics for this right click it and select Statistics. This creates a Histogram chart.
+Drive Time
+--To compare how many players are an hour’s drive away from their school stadium, make use of the excel file with the Long. And Lat. of each school’s stadium.
+- Go to Analysis -> Tools and search for the XY To Point tool.
+-Within this tool, select the excel file as the Input Table and use Long. For X Field and Lat. for Y Field. Click Run.
+-This creates a layer with each schools’ stadium locations. 
+-Now, to calculate drive-time, go to Analysis -> Tools and search for the Make Service Area Analysis Layer tool.
+-Within this tool, create the layer name, select “Driving Time” as Travel Mode and select “Away from facilities” as Travel Destination. For Cutoffs input 60. Click Run.
+-This creates a new service area layer and tab. Select the tab and within this tool it allows me to add locations. Select the layer containing each schools’ stadium locations under Input Locations. Click Apply and then click Run.
+-This creates a new layer showing areas within an hour’s drive of each school’s stadium. Edit the symbology to make it visually appealing.
 
 
 
