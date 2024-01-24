@@ -16,6 +16,7 @@ My most recent projects have focused on public interest technologies that help t
 View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/Patrick%20Campbell%20Resume.pdf).
 
 #### Jump to Section
+QGIS
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
 - [Creating a Landuse Map ](#creating-a-landuse-map ) 
 - [Interpolating Point Data](#interpolating-point-data)
@@ -24,7 +25,8 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 - [World Earthquakes](#world-earthquakes) 
 - [Service Area Analysis using Openrouteservice](#service-area-analysis-using-openrouteservice)
 - [Creating an Airport Location Map Using Python Scripting](#creating-an-airport-location-map-using-python-scripting) 
-- [DEM of Crystal Mountain National Park, Gabon](#dem-of-crystal-mountain-national-park,-gabon) 
+- [DEM of Crystal Mountain National Park, Gabon](#dem-of-crystal-mountain-national-park,-gabon)
+  ArcGIS
 - [American Bittern Migration](#american-bittern-migration)
 - [Pittsburgh EV Site Analysis Project](#pittsburgh-electric-vehicle-site-analysis) 
 - [Optimizing Coverage of Hunting Areas for Maximum Removal of Burmese Pythons in South Florida](#optimizing-coverage-of-hunting-areas-for-maximum-removal-of-burmese-pythons-in-south-florida) 
