@@ -37,7 +37,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 
 
 
-QGIS
+# QGIS
 
 ## Basic Network Visualization and Routing
 
@@ -315,7 +315,7 @@ See the final product below.
 
 [Return to top](#jump-to-section)
 
-ArcGIS
+# ArcGIS
 
 
 I used a very limited ArcGIS Pro due to bugs. I was unable to edit the layer symbology as the software crashes whenever tried to.
