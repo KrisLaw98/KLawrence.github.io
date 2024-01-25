@@ -7,13 +7,13 @@ This portfolio can also be viewed by visiting [https://).
 <img align="left" src="https://user-images.githubusercontent.com/32546509/77238966-de37cd00-6bab-11ea-9b9b-e49783f8300a.jpg">
 My name is Kristoff Lawrence and I’m a recent graduate of The University of Technology, Jamaica's Urban and Regional Planning Bachelor's program (B.Sc. URP). Before enrolling at UTech, I worked for a few months at the Island Traffic Authority's May Pen Depot, where I was an office assistant.<br />
 <br />
-I first became interested in Geographic Information Systems during my latter years at UTech since it was part of my courses. I had no prior knowledge of it but was interested in how I could manipulate this software to solve or highlight problems.<br />
+I first became interested in Geographic Information Systems during my latter years at UTech since it was a small part of my courses. I had no prior knowledge of it but was interested in how I could manipulate this software to solve or highlight social, economic, and geographical problems.<br />
 <br />
 This realization is what ultimately led me to enroll in Michigan State University's Professional GIS Certificate program. As one of the country’s top-rated GIS certificate programs with a mission of training students to “turn raw data into solutions for society’s most pressing problems,”  the perfect opportunity to develop the technical competencies I was seeking to practice those skills.<br />
 <br />
 My most recent projects have focused on public interest technologies that help to increase the range and accessibility of social services worldwide, especially as a means of increasing society's resilience to global threats like climate change.<br />
 <br />
-View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/Patrick%20Campbell%20Resume.pdf).
+View my CV [here].
 
 #### Jump to Section
 
