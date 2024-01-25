@@ -12,7 +12,7 @@ I first became interested in Geographic Information Systems during my latter yea
 This realization is what ultimately led me to enroll in Michigan State University's Professional GIS Certificate program. As one of the country’s top-rated GIS certificate programs with a mission of training students to turn raw data into solutions for society’s most pressing problems, the perfect opportunity to develop the competencies I was seeking to practice those skills.<br />
 <br />
 
-You can view my resume [here](https://github.com/KrisLaw98/Resume/blob/afc8873aea0664e82645d746fa404040b5e65025/Kristoff%20Lawrence-Resume.pdf) .
+You can view my resume [here](https://github.com/KrisLaw98/Resume/blob/b9f3c76d258e39fe66aa24808860edd43c4158cb/Kristoff%20Lawrence-Resume.pdf).
 
 #### Jump to Section
 
