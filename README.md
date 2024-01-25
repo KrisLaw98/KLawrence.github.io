@@ -9,10 +9,9 @@ My name is Kristoff Lawrence and I’m a recent graduate of The University of Te
 <br />
 I first became interested in Geographic Information Systems during my latter years at UTech since it was a small part of my courses. I had no prior knowledge of it but was interested in how I could manipulate this software to solve or highlight social, economic, and geographical problems.<br />
 <br />
-This realization is what ultimately led me to enroll in Michigan State University's Professional GIS Certificate program. As one of the country’s top-rated GIS certificate programs with a mission of training students to “turn raw data into solutions for society’s most pressing problems,”  the perfect opportunity to develop the technical competencies I was seeking to practice those skills.<br />
+This realization is what ultimately led me to enroll in Michigan State University's Professional GIS Certificate program. As one of the country’s top-rated GIS certificate programs with a mission of training students to turn raw data into solutions for society’s most pressing problems, the perfect opportunity to develop the competencies I was seeking to practice those skills.<br />
 <br />
-My most recent projects have focused on public interest technologies that help to increase the range and accessibility of social services worldwide, especially as a means of increasing society's resilience to global threats like climate change.<br />
-<br />
+
 View my CV [here].
 
 #### Jump to Section
