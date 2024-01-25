@@ -318,8 +318,6 @@ See the final product below.
 # ArcGIS
 
 
-I used a very limited ArcGIS Pro due to bugs. I was unable to edit the layer symbology as the software crashes whenever tried to.
-
 ## American Bittern Migration
 
 In this exercise, I used animal tracking data from the [Movebank](https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study438644854) to create a map showcasing the migration pattern of twenty adult male American Bitterns (Botaurus lentiginosus) between July 13, 1998 to July 23, 2003.
