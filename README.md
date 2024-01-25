@@ -10,8 +10,7 @@ My name is Kristoff Lawrence, an Urban Planner with a passion for Geographic Inf
 
 graduate of The University of Technology (UTech), Jamaica's Urban and Regional Planning Bachelor's program (B.Sc. URP). During my 4 years at UTech, I was contracted by the National Environment & Planning Agency (NEPA) twice to work on their Development Order projects, which regulate and control land use.<br />
 <br />
-<br />
-<br />
+
 This realization is what ultimately led me to enroll in Michigan State University's Professional GIS Certificate program. As one of the country’s top-rated GIS certificate programs with a mission of training students to turn raw data into solutions for society’s most pressing problems, the perfect opportunity to develop the competencies I was seeking to practice those skills.<br />
 <br />
 
