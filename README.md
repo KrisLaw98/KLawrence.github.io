@@ -1,7 +1,7 @@
 # GIS Portfolio
+
 Welcome to my GIS portfolio. Below you can browse examples of my work compiled over the past year. 
 
-This portfolio can also be viewed by visiting [https://). 
 
 ## About me 
 <img align="left" src="https://user-images.githubusercontent.com/32546509/77238966-de37cd00-6bab-11ea-9b9b-e49783f8300a.jpg">
