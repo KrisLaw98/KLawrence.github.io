@@ -5,9 +5,12 @@ Welcome to my GIS portfolio. Below you can browse examples of my work compiled o
 
 ## About me 
 
-My name is Kristoff Lawrence and I am an Urban Planner who specializes in Geographic Information Systems (GIS).  graduate of The University of Technology (UTech), Jamaica's Urban and Regional Planning Bachelor's program (B.Sc. URP). During my 4 years at UTech, I was contracted by the National Environment & Planning Agency (NEPA) twice to work on their Development Order projects, which regulate and control the use of land.<br />
+My name is Kristoff Lawrence, an Urban Planner with a passion for Geographic Information Systems (GIS). I am interested in how I can manipulate GIS software to solve or highlight social, geographical, and economic problems.<br />
+
+
+graduate of The University of Technology (UTech), Jamaica's Urban and Regional Planning Bachelor's program (B.Sc. URP). During my 4 years at UTech, I was contracted by the National Environment & Planning Agency (NEPA) twice to work on their Development Order projects, which regulate and control land use.<br />
 <br />
-I first became interested in GIS during my latter years at UTech since it was a small part of my courses. I had no prior knowledge of it but was interested in how I could manipulate this software to solve or highlight social, economic, and geographical problems.<br />
+<br />
 <br />
 This realization is what ultimately led me to enroll in Michigan State University's Professional GIS Certificate program. As one of the country’s top-rated GIS certificate programs with a mission of training students to turn raw data into solutions for society’s most pressing problems, the perfect opportunity to develop the competencies I was seeking to practice those skills.<br />
 <br />
