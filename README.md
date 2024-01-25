@@ -37,7 +37,7 @@ View my resume [here](https://jaxgoodlabs.github.io/patrick-campbell-portfolio/P
 
 
 
-[QGIS](#qgis)
+QGIS
 
 ## Basic Network Visualization and Routing
 
@@ -315,7 +315,7 @@ See the final product below.
 
 [Return to top](#jump-to-section)
 
-[ArcGIS](#arcgis)
+ArcGIS
 
 
 I used a very limited ArcGIS Pro due to bugs. I was unable to edit the layer symbology as the software crashes whenever tried to.
@@ -348,7 +348,7 @@ Below is the final product showing all locations that the American Bitterns migr
 [Return to top](#jump-to-section)
 
 ## Recruiting Patterns
-###2023-24 Men's College Basketball Recruiting Footprint
+### 2023-24 Men's College Basketball Recruiting Footprint
 
 In this exercise, I used data from [ESPN](https://www.espn.com/mens-college-basketball/rankings/_/week/1/year/2024/seasontype/2) and Microsoft Excel to create a map showcasing the recruiting patterns for the 2023-24 Men's College Basketball season on four of the top college basketball teams in the United States based on the preseason AP/Coaches Poll rankings.
 
