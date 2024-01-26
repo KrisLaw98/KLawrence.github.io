@@ -23,7 +23,7 @@ You can view and download my resume [here](https://docs.google.com/gview?url=htt
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
 - [Creating a Landuse Map ](#creating-a-landuse-map ) 
 - [Interpolating Point Data](#interpolating-point-data)
-- [Locating the Nearest Facility with Origin-Destination Matrix](#locating-nearest-facility-with-origin--destination-matrix) 
+- [Locating the Nearest Facility with Origin-Destination Matrix](#locating-the-nearest-facility-with-origin--destination-matrix) 
 - [Creating a Map From an Online Mass Shooting Database](#creating-a-map-from-an-online-mass-shooting-database) 
 - [World Earthquakes](#world-earthquakes) 
 - [Service Area Analysis using Openrouteservice](#service-area-analysis-using-openrouteservice)
