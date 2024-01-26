@@ -146,22 +146,21 @@ In this exercise, I used data from the [Open Data DC](https://opendata.dc.gov/) 
      ```.
 Click Run.
 
-   - Load the Address_Points.shp layer. Go to `Processing` -> `Toolbox` and search for "Random extract" in the Vector Selection tools.
+- Load the Address_Points.shp layer. Go to `Processing` -> `Toolbox` and search for "Random extract" in the Vector Selection tools.
      
-   - Select `Address_Points` as the Input layer, choose `Number of feature` as the Method, and enter 1000 in the Number/percentage of features. Save the extracted points as address_point_subset.shp.
+- Select `Address_Points` as the Input layer, choose `Number of feature` as the Method, and enter 1000 in the Number/percentage of features. Save the extracted points as address_point_subset.shp.
 
    - Rename the address_point_subset layer to "origin_points."
    - 
    - Rename the Adult_Mental_Health_Providers layer to "destination_points."
 
-   - Go to `Processing Toolbox` -> `QNEAT3` -> `Distance matrices` -> `OD Matrix from Layers as Line (m:n)`.
-   - 
-   - Select Roadway_Block as the Network layer. Set origin_points as the From-Points layer and OBJECTID_1 as the Unique Point ID field. Set destination_points as the To-Points Layer and OBJECTID as the Unique Point ID field. Choose Shortest Path as the Optimization Criterion. Set the Advanced parameters for direction using the street attributes. Click Run.
+   - Go to `Processing Toolbox` -> Search for `QNEAT3` -> `Distance matrices` -> `OD Matrix from Layers as Line (m:n)`.
+     
+- Select Roadway_Block as the Network layer, origin_points as the From-Points layer and OBJECTID_1 as the Unique Point ID field. Set destination_points as the To-Points Layer and OBJECTID as the Unique Point ID field. Choose Shortest Path as the Optimization Criterion. Set the Advanced parameters for direction using the street attributes. Click Run.
 
-**7. Create Virtual Layer with SQL Query:**
-   - Open the attribute table of the resulting "Output OD Matrix" layer.
-   - There should be 13,000 rows (13 origin points x 1,000 destination points).
-   - Go to Processing Toolbox > Vector general > Execute SQL.
+-To create Virtual Layer with SQL Query:**
+   
+   - Go to `Processing Toolbox` -> `Vector general` -> `Execute SQL`.
    - Select the Output OD Matrix as the additional input data source.
    - Enter the following SQL query:
      ```sql
@@ -169,11 +168,13 @@ Click Run.
      FROM input1
      GROUP BY origin_id
      ```
-   - Click Run.
+   - Click Run. A new virtual layer called "SQL Output" will be added to the Layers panel. This layer contains the result of the analysis, showing the nearest health facility for each of the 1,000 origin points. The attribute table can be used to flash the feature to better observe individual shortest distances.
 
-**8. Visualize Results:**
-   - A new virtual layer called "SQL Output" will be added to the Layers panel.
-   - This layer contains the result of the analysis, showing the nearest health facility for each of the 1,000 origin points.
+
+An image of the final product is displayed below.
+
+
+![tday](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/d04ad1da-7c22-4bb1-a86c-d97bc28b9404)
 
 
 [Return to top](#jump-to-section)
