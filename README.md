@@ -66,7 +66,7 @@ An image of the final product is displayed below.
 ### Cape Town Land Use
 In this exercise, I used data from [Cape Town Open Data Portal](https://opendata.dc.gov/datasets/DCGIS::roadway-block/about) using the [ArcGIS REST Services](https://citymaps.capetown.gov.za/agsext1/rest/services) to import the data from it to create a land use map for the CBD region of Cape Town.
 
--First I access the data from the Cape Town Open Data Portal using the ArcGIS REST server URL to create a server connection, downloading three layers: Cape Town CBD layer, Zoning layer, and Split Zoning layer.
+-First, I access the data from the Cape Town Open Data Portal using the ArcGIS REST server URL to create a server connection, downloading three layers: Cape Town CBD layer, Zoning layer, and Split Zoning layer.
 
 I then save all three layers locally as shapefiles (CBD, Zoning, and Split Zoning).
 
@@ -92,7 +92,7 @@ An image of the final product is displayed below.
 
 In this exercise, I used data from the [Texas Water Development Board (TWDB)](https://www.twdb.texas.gov/surfacewater/surveys/completed/list/index.asp) to create an interpolated elevation surface of Lake Arlington, clip it to the lake boundary, generate contours, and add labels for elevation values. 
 
--First I obtain the shapefiles for Lake Arlington's 2007-12 survey from the TWDB website. 
+-First, I obtain the shapefiles for Lake Arlington's 2007-12 survey from the TWDB website. 
 
 Perform TIN Interpolation:
    - Open the Processing Toolbox and find the TIN Interpolation tool.
@@ -135,6 +135,17 @@ An image of the final product is displayed below.
 ## Locating the Nearest Facility with Origin-Destination Matrix
 
 ### Finding the Nearest Health Facility for Each Address
+
+In this exercise, I used data from the [Open Data DC](https://opendata.dc.gov/) to create a map that you identifies the closest health facility to each address in Washington DC based on the calculated shortest path distances
+
+-First, I obtained the shapefiles three shapefiles from Open Data DC that each contain the roadway block, address points, and community-based service provider respectively. 
+
+- Load the Community_Based_Service_Providers.shp layer and filter it by entering the following query in the Filter Expression:
+     ```
+     "PROVIDER_T" IN ('Adult', 'Adult & Child')
+     ```
+   - Click Run.
+
 
 [Return to top](#jump-to-section)
 
