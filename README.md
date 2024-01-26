@@ -28,7 +28,7 @@ You can view and download my resume [here](https://docs.google.com/gview?url=htt
 - [World Earthquakes](#world-earthquakes) 
 - [Service Area Analysis using Openrouteservice](#service-area-analysis-using-openrouteservice)
 - [Creating an Airport Location Map Using Python Scripting](#creating-an-airport-location-map-using-python-scripting) 
-- [DEM of Crystal Mountain National Park, Gabon](#dem-of-crystal-mountain-national-park-,-gabon)
+- [DEM of Crystal Mountain National Park, Gabon](#dem-of-crystal-mountain-national-park-gabon)
 
 [ArcGIS](#arcgis)
 
