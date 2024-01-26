@@ -23,7 +23,7 @@ You can view and download my resume [here](https://docs.google.com/gview?url=htt
 - [Basic Network Visualization and Routing](#basic-network-visualization-and-routing) 
 - [Creating a Landuse Map ](#creating-a-landuse-map ) 
 - [Interpolating Point Data](#interpolating-point-data)
-- [Locating Nearest Facility with Origin-Destination Matrix](#locating-nearest-facility-with-origin--destination-matrix) 
+- [Locating the Nearest Facility with Origin-Destination Matrix](#locating-nearest-facility-with-origin--destination-matrix) 
 - [Creating a Map From an Online Mass Shooting Database](#creating-a-map-from-an-online-mass-shooting-database) 
 - [World Earthquakes](#world-earthquakes) 
 - [Service Area Analysis using Openrouteservice](#service-area-analysis-using-openrouteservice)
@@ -129,6 +129,12 @@ An image of the final product is displayed below.
 
 ![Layout 1](https://github.com/KrisLaw98/KLawrence.github.io/assets/154273610/31d6a49f-f129-4d36-b153-c820f279e412)
 
+
+[Return to top](#jump-to-section)
+
+## Locating the Nearest Facility with Origin-Destination Matrix
+
+### Finding the Nearest Health Facility for Each Address
 
 [Return to top](#jump-to-section)
 
